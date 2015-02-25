@@ -5,10 +5,12 @@ module.exports = function(grunt) {
     vimlint: {
       succeeded: {
         src: ['test/succeeded.vim']
+      },
+      failed: {
+        src: ['test/failed.vim']
       }
     }
   });
   
-  grunt.registerTask('test', ['vimlint']);
   grunt.loadTasks('tasks');
 };

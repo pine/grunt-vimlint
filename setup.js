@@ -20,8 +20,8 @@ function git_clone(url) {
     }
     
     exec('git clone ' + url + ' ' + folder, function (err, stdout, stderr) {
-      if (stdout) util.log(stdout);
-      if (stderr) util.error(stderr);
+      if (stdout) util.print(stdout);
+      if (stderr) util.print(stderr);
       
       if (err) {
         return process.exit(1);
