@@ -20,14 +20,14 @@ module.exports = function(grunt) {
     console.log('> grunt vimlint:succeeded');
     exec('grunt vimlint:succeeded', function (err, stdout, stderr) {
       if (err) {
-        grunt.log.error(stdout || stderr);
+        console.error(stdout || stderr);
         return done(err);
       }
       
       console.log('> grunt vimlint:failed');
       exec('grunt vimlint:failed', function (err, stdout, stderr) {
         if (!err) {
-          grunt.log.error('vimlint succeeded');
+          console.error('vimlint succeeded');
           return done(true);
         }
         
