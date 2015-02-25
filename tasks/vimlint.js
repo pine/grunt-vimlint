@@ -19,10 +19,9 @@ module.exports = function (grunt) {
     files.forEach(function (file) {
       var cmd = 'sh ' + vimlint_bin+ ' -l ' +
         vimlint + ' -p ' + vimlparser + ' -v ' + file;
-      console.log(cmd);
       
       exec(cmd, function (err, stdout, stderr) {
-        if (err) { grunt.log.error(err); }
+        if (err) { grunt.log.error(stderr); }
         if (++runs === files.length) {
           if (self.errorCount) { return done(options.force); }
           grunt.log.ok(files.length + ' file' + (files.length === 1 ? '' : 's') + ' lint free.');
