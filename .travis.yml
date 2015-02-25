@@ -6,4 +6,4 @@ before_script:
 
 script:
   - node_modules/.bin/grunt vimlint:succeeded
-  - node_modules/.bin/grunt vimlint:failed || [ $? != 0]
+  - node_modules/.bin/grunt vimlint:failed

@@ -21,7 +21,7 @@ module.exports = function (grunt) {
         vimlint + ' -p ' + vimlparser + ' -v ' + file;
       
       exec(cmd, function (err, stdout, stderr) {
-        if (err) { grunt.log.error(stderr); }
+        if (err) { grunt.log.error(stdout || stderr); }
         if (++runs === files.length) {
           if (self.errorCount) { return done(options.force); }
           grunt.log.ok(files.length + ' file' + (files.length === 1 ? '' : 's') + ' lint free.');
