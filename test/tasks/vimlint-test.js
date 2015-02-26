@@ -29,7 +29,7 @@ function test_failed(done) {
 }
 
 module.exports = function (grunt) {
-  grunt.registerTask('test', function() {
+  grunt.registerTask('vimlint-test', function() {
     var done = this.async();
     
     async.parallel(
