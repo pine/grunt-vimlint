@@ -24,6 +24,9 @@ grunt.initConfig({
 grunt.loadNpmTasks('grunt-vimlint');
 ```
 
+## Additional Notes
+This plugin **doesn't work** on Windows. It works on Linux, Mac OS X, or other *nix OSs.
+
 ## License
 MIT License<br />
 Copyright (c) 2015 Pine Mizune
