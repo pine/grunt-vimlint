@@ -3,6 +3,14 @@ node_js:
   - 0.10
 
 script:
+  # Basic test
   - npm test
+  
+  # Test postinstall
+  - rm -rf node_modules
+  - npm install .
+  - npm install
+  
+  # Test re-postinstall
   - npm install .
   - npm test
