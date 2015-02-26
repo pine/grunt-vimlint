@@ -1,5 +1,6 @@
 'use strict';
 
+var util = require('util');
 var exec = require('child_process').exec;
 
 module.exports = function(grunt) {
@@ -19,17 +20,17 @@ module.exports = function(grunt) {
     
     console.log('> grunt vimlint:succeeded');
     exec('grunt vimlint:succeeded', function (err, stdout, stderr) {
-      if (err) {
-        console.error(stdout || stderr);
-        return done(err);
-      }
+      if (stdout) { util.print(stdout); }
+      if (stderr) { util.print(stderr); }
+      
+      if (err) { return done(err); }
       
       console.log('> grunt vimlint:failed');
       exec('grunt vimlint:failed', function (err, stdout, stderr) {
-        if (!err) {
-          console.error('vimlint succeeded');
-          return done(true);
-        }
+        if (stdout) { util.print(stdout); }
+        if (stderr) { util.print(stderr); }
+        
+        if (!err) { return done(true); }
         
         done();
       });
