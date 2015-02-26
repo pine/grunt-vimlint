@@ -29,6 +29,12 @@ grunt.loadNpmTasks('grunt-vimlint');
 ## Additional Notes
 This plugin **doesn't work** on Windows. It works on Linux, Mac OS X, or other *nix OSs.
 
+## Acknowledgement
+This plugin uses following software to validate `.vim` files. Thank you.
+
+ - [syngan](https://github.com/syngan) / [vim-vimlint](https://github.com/syngan/vim-vimlint)
+ - [ynkdir](https://github.com/ynkdir) / [vim-vimlparser](https://github.com/ynkdir/vim-vimlparser)
+
 ## License
 MIT License<br />
 Copyright (c) 2015 Pine Mizune
