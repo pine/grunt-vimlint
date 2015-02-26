@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/pine613/grunt-vimlint",
   "devDependencies": {
+    "async": "^0.9.0",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "rimraf": "^2.2.8"
