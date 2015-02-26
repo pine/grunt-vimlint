@@ -1,7 +1,7 @@
 {
   "name": "grunt-vimlint",
   "version": "0.1.0",
-  "description": "",
+  "description": "Validate `.vimrc`, `.vim` files with `vimlint`.",
   "main": "index.js",
   "scripts": {
     "test": "grunt test",
