@@ -26,6 +26,13 @@ grunt.initConfig({
 grunt.loadNpmTasks('grunt-vimlint');
 ```
 
+## Options
+### force
+
+Type: `Boolean` Default value: `false`
+
+Set force to true to report errors but not fail the task.
+
 ## Additional Notes
 This plugin **doesn't work** on Windows. It works on Linux, Mac OS X, or other *nix OSs.
 
