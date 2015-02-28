@@ -6,19 +6,19 @@ grunt-vimlint
 [![Dependency Status](https://david-dm.org/pine613/grunt-vimlint.svg)](https://david-dm.org/pine613/grunt-vimlint)
 [![devDependency Status](https://david-dm.org/pine613/grunt-vimlint/dev-status.svg)](https://david-dm.org/pine613/grunt-vimlint#info=devDependencies)
 
-English | [日本語](README.ja.md)
+[English](README.md) | 日本語
 
-Validate `.vimrc`, `.vim` files with [vimlint](https://github.com/syngan/vim-vimlint).
+`.vimrc`, `.vim` ファイルを [vimlint](https://github.com/syngan/vim-vimlint) を使って検証します。
 
-## Getting Started
+## 使い方
 
-This plugin requires [Grunt](http://gruntjs.com) >=0.4.5 and Vim.
+このプラグインを使うには [Grunt](http://gruntjs.com) (>= 0.4.5) と Vim が必要です。
 
 ```sh
 $ npm install grunt-vimlint --save-dev
 ```
 
-## Usage examples
+## 設定例
 
 ```js
 grunt.initConfig({
@@ -30,22 +30,22 @@ grunt.initConfig({
 grunt.loadNpmTasks('grunt-vimlint');
 ```
 
-## Options
+## オプション
 ### force
 
-Type: `Boolean` Default value: `false`
+型: `Boolean`、初期値: `false`
 
-Set force to true to report errors but not fail the task.
+`true` を設定した場合、エラーが発生した場合でもタスクを途中で終了しません。
 
-## Additional Notes
-This plugin **doesn't work** on Windows. It works on Linux, Mac OS X, or other *nix OSs.
+## 補足
+このプラグインは Windows では **動作しません**。Linux, Mac OS X などの UNIX 系 OS で利用してください。
 
-## Acknowledgement
-This plugin uses following software to validate `.vim` files. Thank you.
+## 謝辞
+このプラグインは `.vim` ファイルを検証する際に下記のソフトウェアを利用しています。この場を借りてお礼申し上げます。
 
  - [syngan](https://github.com/syngan) / [vim-vimlint](https://github.com/syngan/vim-vimlint)
  - [ynkdir](https://github.com/ynkdir) / [vim-vimlparser](https://github.com/ynkdir/vim-vimlparser)
 
-## License
-MIT License<br />
+## ライセンス
+MIT ライセンスです。<br />
 Copyright (c) 2015 Pine Mizune
