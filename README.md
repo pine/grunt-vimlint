@@ -6,7 +6,7 @@ grunt-vimlint
 [![Dependency Status](https://david-dm.org/pine613/grunt-vimlint.svg)](https://david-dm.org/pine613/grunt-vimlint)
 [![devDependency Status](https://david-dm.org/pine613/grunt-vimlint/dev-status.svg)](https://david-dm.org/pine613/grunt-vimlint#info=devDependencies)
 
-English | [日本語](README.ja.md)
+English | [日本語](README-ja.md)
 
 Validate `.vimrc`, `.vim` files with [vimlint](https://github.com/syngan/vim-vimlint).
 
