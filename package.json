@@ -5,7 +5,8 @@
   "files": [
     "tasks",
     "setup.js",
-    "LICENSE"
+    "LICENSE",
+    "*.md"
   ],
   "scripts": {
     "test": "grunt test",
