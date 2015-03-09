@@ -2,12 +2,10 @@
 
 var exec = require('child_process').exec;
 var path = require('path');
+var vimlint = require('vimlint');
 
 module.exports = function (grunt) {
-  var vimlint = path.join(__dirname, '../vim-vimlint');
-  var vimlint_bin = path.join(vimlint, 'bin/vimlint.sh');
-  var vimlparser = path.join(__dirname, '../vim-vimlparser');
-  
+
   grunt.registerMultiTask('vimlint', 'Lint vim files', function () {
     var self = this;
     
@@ -17,10 +15,7 @@ module.exports = function (grunt) {
     var runs = 0;
     
     files.forEach(function (file) {
-      var cmd = 'sh ' + vimlint_bin+ ' -l ' +
-        vimlint + ' -p ' + vimlparser + ' -v ' + file;
-      
-      exec(cmd, function (err, stdout, stderr) {
+      vimlint(file, function (err, stdout, stderr) {
         if (err) { grunt.log.error(stdout || stderr); }
         if (++runs === files.length) {
           if (self.errorCount) { return done(options.force); }
