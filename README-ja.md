@@ -40,6 +40,11 @@ grunt.loadNpmTasks('grunt-vimlint');
 ## 補足
 このプラグインは Windows では **動作しません**。Linux, Mac OS X などの UNIX 系 OS で利用してください。
 
+## 関連するリポジトリ
+
+ -  [node-vimlint](https://github.com/pine613/node-vimlint)
+ -  [gulp-vimlint](https://github.com/pine613/gulp-vimlint)
+
 ## 謝辞
 このプラグインは `.vim` ファイルを検証する際に下記のソフトウェアを利用しています。この場を借りてお礼申し上げます。
 
