@@ -47,5 +47,5 @@ grunt.loadNpmTasks('grunt-vimlint');
  - [ynkdir](https://github.com/ynkdir) / [vim-vimlparser](https://github.com/ynkdir/vim-vimlparser)
 
 ## ライセンス
-MIT ライセンスです。<br />
+MIT ライセンス<br />
 Copyright (c) 2015 Pine Mizune
