@@ -1,14 +1,13 @@
 'use strict';
 
-var util = require('util');
 var exec = require('child_process').exec;
 var async = require('async');
 
 function test_succeeded(done) {
   console.log('> grunt vimlint:succeeded');
   exec('grunt vimlint:succeeded', function (err, stdout, stderr) {
-    if (stdout) { util.print(stdout); }
-    if (stderr) { util.print(stderr); }
+    if (stdout) { process.stdout.write(stdout); }
+    if (stderr) { process.stderr.write(stderr); }
     
     done(err);
   });
@@ -17,8 +16,8 @@ function test_succeeded(done) {
 function test_failed(done) {
   console.log('> grunt vimlint:failed');
   exec('grunt vimlint:failed', function (err, stdout, stderr) {
-    if (stdout) { util.print(stdout); }
-    if (stderr) { util.print(stderr); }
+    if (stdout) { process.stdout.write(stdout); }
+    if (stderr) { process.stderr.write(stderr); }
     
     if (!err) {
       return done('grunt succeeded');
