@@ -5,7 +5,8 @@ node_js:
   - iojs
 
 notifications:
-  slack: pinemz:CIgo04zZBjnpMy3m1bXAL5Pe
+  slack:
+    secure: hGtkiNoDlPQzFZIHcb+JmIJ+JE8LX4ph3RSgSQ4gPJz1JvEmdw0jfoL/d7VBZndPS0Mwg9vQRrkaop06E331+PLk3UyN5YNz4vvcDMFlWr22630XgznM4qYvwvljUmpS/Ethk9tUqZiB8U8PP82NLnewKkaUUCWOcP/+WPXICoQ=
 
 before_install:
   - npm config set strict-ssl false
