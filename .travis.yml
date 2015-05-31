@@ -7,4 +7,7 @@ node_js:
 notifications:
   slack: pinemz:CIgo04zZBjnpMy3m1bXAL5Pe
 
+before_install:
+  - npm config set strict-ssl false
+
 sudo: false
