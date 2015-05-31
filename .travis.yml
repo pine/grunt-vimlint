@@ -4,4 +4,7 @@ node_js:
   - '0.12'
   - iojs
 
+notifications:
+  slack: pinemz:CIgo04zZBjnpMy3m1bXAL5Pe
+
 sudo: false
