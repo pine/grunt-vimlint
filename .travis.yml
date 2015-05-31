@@ -4,4 +4,7 @@ node_js:
   - '0.12'
   - iojs
 
+before_install:
+  - npm config set strict-ssl false
+
 sudo: false
