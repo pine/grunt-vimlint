@@ -41,16 +41,17 @@ Set force to true to report errors but not fail the task.
 ## Additional Notes
 This plugin **doesn't work** on Windows. It works on Linux, Mac OS X, or other *nix OSs.
 
-## See also
-
- -  [node-vimlint](https://github.com/pine613/node-vimlint)
- -  [gulp-vimlint](https://github.com/pine613/gulp-vimlint)
-
 ## Acknowledgement
 This plugin uses following software to validate `.vim` files. Thank you.
 
  - [syngan](https://github.com/syngan) / [vim-vimlint](https://github.com/syngan/vim-vimlint)
  - [ynkdir](https://github.com/ynkdir) / [vim-vimlparser](https://github.com/ynkdir/vim-vimlparser)
+
+## See also
+
+ -  [node-vimlint](https://github.com/pine613/node-vimlint)
+ -  [gulp-vimlint](https://github.com/pine613/gulp-vimlint)
+ -  [fly-vimlint](https://github.com/pine613/fly-vimlint)
 
 ## License
 MIT License<br />
