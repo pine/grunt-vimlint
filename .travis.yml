@@ -1,3 +1,4 @@
+sudo: false
 language: node_js
 node_js:
   - '0.10'
@@ -8,8 +9,3 @@ node_js:
 notifications:
   slack:
     secure: "VXtqyYnQND3q2BAr+qukZP0lhHel5NW+ckn/WoF2XJWmfkA0xH/+WpQwybo06pKzAMhQn8kqP1V1FSEkxhbun7uqcmKS1vqNfonIptyWjzUr45PXKMMwgIXr/ngYN04jjpPzdCzA5qt8DYrSIxHYr92oLMoNJuXKMKTepQUbaQE="
-
-before_install:
-  - npm config set strict-ssl false
-
-sudo: false
