@@ -2,10 +2,10 @@ grunt-vimlint
 -------------
 
 [![npm version](https://badge.fury.io/js/grunt-vimlint.svg)](http://badge.fury.io/js/grunt-vimlint)
-[![Build Status](https://travis-ci.org/pine613/grunt-vimlint.svg?branch=master)](https://travis-ci.org/pine613/grunt-vimlint)
-[![Code Climate](https://codeclimate.com/github/pine613/grunt-vimlint/badges/gpa.svg)](https://codeclimate.com/github/pine613/grunt-vimlint)
-[![Dependency Status](https://david-dm.org/pine613/grunt-vimlint.svg)](https://david-dm.org/pine613/grunt-vimlint)
-[![devDependency Status](https://david-dm.org/pine613/grunt-vimlint/dev-status.svg)](https://david-dm.org/pine613/grunt-vimlint#info=devDependencies)
+[![Build Status](https://travis-ci.org/pine/grunt-vimlint.svg?branch=master)](https://travis-ci.org/pine/grunt-vimlint)
+[![Code Climate](https://codeclimate.com/github/pine/grunt-vimlint/badges/gpa.svg)](https://codeclimate.com/github/pine/grunt-vimlint)
+[![Dependency Status](https://david-dm.org/pine/grunt-vimlint.svg)](https://david-dm.org/pine/grunt-vimlint)
+[![devDependency Status](https://david-dm.org/pine/grunt-vimlint/dev-status.svg)](https://david-dm.org/pine/grunt-vimlint#info=devDependencies)
 
 [English](README.md) | 日本語
 
@@ -43,8 +43,8 @@ grunt.loadNpmTasks('grunt-vimlint');
 
 ## 関連するリポジトリ
 
- -  [node-vimlint](https://github.com/pine613/node-vimlint)
- -  [gulp-vimlint](https://github.com/pine613/gulp-vimlint)
+ -  [node-vimlint](https://github.com/pine/node-vimlint)
+ -  [gulp-vimlint](https://github.com/pine/gulp-vimlint)
 
 ## 謝辞
 このプラグインは `.vim` ファイルを検証する際に下記のソフトウェアを利用しています。この場を借りてお礼申し上げます。
