@@ -54,5 +54,4 @@ This plugin uses following software to validate `.vim` files. Thank you.
  -  [fly-vimlint](https://github.com/pine/fly-vimlint)
 
 ## License
-MIT License<br />
-Copyright (c) 2015 Pine Mizune
+MIT License
