@@ -5,7 +5,7 @@ grunt-vimlint
 [![Build Status](https://img.shields.io/travis/pine/grunt-vimlint/master.svg?style=flat-square)](https://travis-ci.org/pine/grunt-vimlint)
 [![Code Climate](https://img.shields.io/codeclimate/github/pine/grunt-vimlint.svg?style=flat-square)](https://codeclimate.com/github/pine/grunt-vimlint)
 [![Dependency Status](https://img.shields.io/david/pine/grunt-vimlint.svg?style=flat-square)](https://david-dm.org/pine/grunt-vimlint)
-[![devDependency Status](https://img.shields.io/david/dev/pine/grunt-vimlint.svg?style=flat-square)](https://david-dm.org/pine/grunt-vimlint#info=devDependencies)
+[![devDependency Status](https://img.shields.io/david/dev/pine/grunt-vimlint.svg?style=flat-square)](https://david-dm.org/pine/grunt-vimlint#info=devDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/pine/grunt-vimlint.svg)](https://greenkeeper.io/)
 
 English | [日本語](README-ja.md)
 
